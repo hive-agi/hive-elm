@@ -1,0 +1,7 @@
+{:project-id  "hive-elm"
+ :parent      "hive"
+ :description "Elm build watcher as a hive IAddon: runs `elm make --report=json`, turns compiler errors into values, and shouts new failures on the hivemind so sixth-sense and piggyback carry them to the model."
+ :language    :clojure
+ :license     "MIT"
+ :tags        ["elm" "build-watcher" "iaddon" "sixth-sense" "hivemind"]
+ :carto       {:source-roots ["resources" "src" "test" "test/resources"]}}

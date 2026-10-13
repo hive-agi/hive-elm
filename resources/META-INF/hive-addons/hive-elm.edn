@@ -1,0 +1,11 @@
+{:addon/id           "hive.elm"
+ :addon/kind         :addon
+ :addon/type         :native
+ :addon/init-ns      "hive-elm.addon"
+ :addon/init-fn      "addon-ctor"
+ :addon/config       {}
+ :addon/capabilities #{:tools :schema :health-reporting}
+ :addon/description  "Elm build watching: runs `elm make --report=json`, and shouts each new compiler failure and each recovery on the hivemind so the model hears of a broken build without asking."
+ :addon/license      "MIT"
+ :addon/maturity     :experimental
+ :addon/trust-class  :foss}
