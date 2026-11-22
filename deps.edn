@@ -35,7 +35,7 @@
   ;; Release entrypoint (clojure -T:build <task>), from the published
   ;; hive-build.api. No per-repo build script.
   :build
-  {:deps {io.github.hive-agi/hive-build {:mvn/version "0.3.1"}}
+  {:deps {io.github.hive-agi/hive-build {:mvn/version "0.3.3"}}
    :jvm-opts ["-Xmx1g"]
    :ns-default hive-build.api}
 
